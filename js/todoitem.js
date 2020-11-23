@@ -6,7 +6,7 @@ export default class ToDoItem {
   getId() {
     return this._id;
   }
-  setId() {
+  setId(id) {
     this._id = id;
   }
   getItem() {

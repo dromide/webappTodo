@@ -8,7 +8,7 @@ export default class ToDoList {
   clearList() {
     this._list = [];
   }
-  addItemToList() {
+  addItemToList(itemObj) {
     this._list.push(itemObj);
   }
   removeItemFromList(id) {
